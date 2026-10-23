@@ -1,0 +1,23 @@
+{
+  "_comment": "LinkedIn field limits used by li_lint.py. LinkedIn may change these at any time; edit this file (or pass --limits) when the UI shows a different limit. Values were cross-checked against two independent third-party tests (Sep 2026) because LinkedIn's own Help pages could not be fetched.",
+  "_verified": "2026-09",
+  "warn_ratio": 0.9,
+  "fields": {
+    "headline": {
+      "limit": 220,
+      "aliases": ["headline", "헤드라인", "한 줄 소개"],
+      "single_line": true
+    },
+    "about": {
+      "limit": 2600,
+      "aliases": ["about", "summary", "소개", "자기소개", "요약"],
+      "single_line": false
+    },
+    "experience": {
+      "limit": 2000,
+      "aliases": ["experience", "경력", "경험"],
+      "single_line": false,
+      "per_entry": true
+    }
+  }
+}
