@@ -1,0 +1,10 @@
+# Personal data must never be committed: keep your real profile and applications outside this repo.
+profile.md
+applications/
+*.ics
+
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+.DS_Store
